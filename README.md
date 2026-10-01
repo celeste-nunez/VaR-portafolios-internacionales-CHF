@@ -5,6 +5,10 @@ VaR, CVaR y VaR Estresado al 97.5% de dos portafolios de índices globales valua
 
 Medición del riesgo de mercado de dos portafolios de índices bursátiles internacionales, valuados en francos suizos (CHF), mediante tres metodologías de VaR y su versión estresada. Todo el modelo está construido en Excel con fórmulas (sin macros), de modo que cada cálculo es rastreable celda por celda.
 
+## Herramientas
+
+  - Microsoft Excel
+
 ## Portafolios
 
 Cada portafolio tiene un valor de **P = 100,000,000 CHF**.
@@ -118,6 +122,3 @@ Para cada método se calcula:
 3. Para cambiar la composición del portafolio, modifica los montos en `VaR Sim Hist` (Simulación Histórica y Monte Carlo los toman de ahí) y también los vectores `aT` y `a` en `VaR Párametrico`, que están capturados directamente.
 4. Las simulaciones de Monte Carlo usan números aleatorios, así que sus resultados cambian ligeramente cada vez que Excel recalcula.
 
-## Herramientas
-
-Microsoft Excel (fórmulas, matrices de covarianza, simulación Monte Carlo, histogramas).
