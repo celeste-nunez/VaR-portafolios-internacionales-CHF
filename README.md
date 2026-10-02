@@ -122,3 +122,6 @@ Para cada método se calcula:
 3. Para cambiar la composición del portafolio, modifica los montos en `VaR Sim Hist` (Simulación Histórica y Monte Carlo los toman de ahí) y también los vectores `aT` y `a` en `VaR Párametrico`, que están capturados directamente.
 4. Las simulaciones de Monte Carlo usan números aleatorios, así que sus resultados cambian ligeramente cada vez que Excel recalcula.
 
+## Autoría
+
+Proyecto desarrollado por Celeste Núñez López y Ana Ximena Bravo Colin.
